@@ -32,6 +32,16 @@ const Navbar = () => {
               >
                 URL Analysis
               </NavLink>
+              <NavLink 
+                to="/email-analysis" 
+                className={({isActive}) => 
+                  isActive 
+                    ? "text-cyber-accent font-medium" 
+                    : "text-gray-700 dark:text-gray-300 hover:text-cyber-accent"
+                }
+              >
+                Email Analysis
+              </NavLink>
             </div>
           </div>
         </div>
