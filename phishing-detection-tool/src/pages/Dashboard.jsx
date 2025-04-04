@@ -39,6 +39,14 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
+        <div class="inline-flex space-x-2">
+  <button class="bg-gray-300 mt-5 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded">
+    Scan url
+  </button>
+  <button class="bg-gray-300 mt-5 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded">
+    Scan email
+  </button>
+</div>
       </div>
     );
   };
