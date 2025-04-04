@@ -13,7 +13,7 @@ const Dashboard = () => {
             </p>
             <ul className="mt-3 space-y-2 ml-5 list-disc text-gray-600 dark:text-gray-400">
               <li>URL Analysis - Check suspicious links</li>
-              <li>Email Header Analysis (Coming Soon)</li>
+              <li>Email Header Analysis - Analyses email headers for suspicious emails</li>
               <li>Visual Content Analysis (Coming Soon)</li>
             </ul>
           </div>

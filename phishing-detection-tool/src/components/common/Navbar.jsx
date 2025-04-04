@@ -2,10 +2,10 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="bg-white dark:bg-gray-900 shadow-md">
+    <nav className="bg-[#383857] dark:bg-gray-900 shadow-md">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="text-xl font-bold text-cyber-accent">
+          <Link to="/" className="text-xl font-bold text-white hover:text-[#8BE9FD]">
             PhishGuard
           </Link>
           
@@ -16,7 +16,7 @@ const Navbar = () => {
                 className={({isActive}) => 
                   isActive 
                     ? "text-cyber-accent font-medium" 
-                    : "text-gray-700 dark:text-gray-300 hover:text-cyber-accent"
+                    : "text-gray-700 dark:text-gray-300 hover:text-[#8BE9FD]"
                 }
                 end
               >
@@ -26,8 +26,8 @@ const Navbar = () => {
                 to="/url-analysis" 
                 className={({isActive}) => 
                   isActive 
-                    ? "text-cyber-accent font-medium" 
-                    : "text-gray-700 dark:text-gray-300 hover:text-cyber-accent"
+                    ? "text-white font-medium" 
+                    : "text-gray-700 dark:text-gray-300 hover:text-[#8BE9FD]"
                 }
               >
                 URL Analysis
@@ -37,7 +37,7 @@ const Navbar = () => {
                 className={({isActive}) => 
                   isActive 
                     ? "text-cyber-accent font-medium" 
-                    : "text-gray-700 dark:text-gray-300 hover:text-cyber-accent"
+                    : "text-gray-700 dark:text-gray-300 hover:text-[#8BE9FD]"
                 }
               >
                 Email Analysis
