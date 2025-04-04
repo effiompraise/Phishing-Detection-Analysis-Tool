@@ -33,7 +33,7 @@ const EmailForm = () => {
           <p>To find email headers:</p>
           <ul className="list-disc pl-5 mt-1">
             <li>Gmail: Open email &gt; Click three dots &gt; "Show original"</li>
-            <li>Outlook: Open email &gt; Click three dots &gt; "View &gt; Message details"</li>
+            <li>Outlook: Open email &gt; Click three dots &gt; "View &gt; View message source"</li>
           </ul>
         </div>
         <button

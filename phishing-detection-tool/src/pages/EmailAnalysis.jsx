@@ -1,4 +1,3 @@
-// pages/EmailAnalysis.jsx
 import EmailForm from '../components/email-analyzer/EmailForm';
 import EmailResults from '../components/email-analyzer/EmailResults';
 
@@ -12,7 +11,7 @@ const EmailAnalysis = () => {
         Analyze email headers to detect spoofing, phishing attempts, and verify sender authenticity.
       </p>
       
-      <div class="grid h-screen place-items-center">
+      <div>
         <div>
           <EmailForm />
         </div>
