@@ -32,7 +32,7 @@ const UrlForm = () => {
         </div>
         <button
           type="submit"
-          className="btn-primary"
+          className="bg-[#8BE9FD]"
           disabled={isLoading}
         >
           {isLoading ? 'Analyzing...' : 'Analyze URL'}

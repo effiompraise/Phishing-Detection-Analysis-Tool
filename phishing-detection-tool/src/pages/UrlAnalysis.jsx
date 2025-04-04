@@ -3,10 +3,10 @@ import UrlResults from '../components/url-analyzer/UrlResults';
 
 const UrlAnalysis = () => {
   return (
-    <div>
+    <div >
       <h1 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">URL Analysis</h1>
       <div className="grid md:grid-cols-2 gap-6">
-        <div>
+        <div >
           <UrlForm />
           <div className="card">
             <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white">About URL Analysis</h2>

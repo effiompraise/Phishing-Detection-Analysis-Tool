@@ -15,8 +15,8 @@ const Navbar = () => {
                 to="/" 
                 className={({isActive}) => 
                   isActive 
-                    ? "text-cyber-accent font-medium" 
-                    : "text-gray-700 dark:text-gray-300 hover:text-[#8BE9FD]"
+                    ? "text-[#8BE9FD] font-medium" 
+                    : "text-white hover:text-[#8BE9FD]"
                 }
                 end
               >
@@ -26,8 +26,8 @@ const Navbar = () => {
                 to="/url-analysis" 
                 className={({isActive}) => 
                   isActive 
-                    ? "text-white font-medium" 
-                    : "text-gray-700 dark:text-gray-300 hover:text-[#8BE9FD]"
+                    ? "text-[#8BE9FD] font-medium" 
+                    : "text-white hover:text-[#8BE9FD]"
                 }
               >
                 URL Analysis
@@ -36,8 +36,8 @@ const Navbar = () => {
                 to="/email-analysis" 
                 className={({isActive}) => 
                   isActive 
-                    ? "text-cyber-accent font-medium" 
-                    : "text-gray-700 dark:text-gray-300 hover:text-[#8BE9FD]"
+                    ? "text-[#8BE9FD] font-medium" 
+                    : "text-white hover:text-[#8BE9FD]"
                 }
               >
                 Email Analysis
