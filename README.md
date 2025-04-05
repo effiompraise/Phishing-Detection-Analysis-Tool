@@ -1,6 +1,6 @@
 # PhishGuard 🛡️
 
-![PhishGuard Preview](./phishing-detection-tool/src/assets/Screenshot%202025-04-05%20031208.png)
+![PhishGuard Preview](./phishing-detection-tool/src/assets/phishguard-preview.png)
 *A modern phishing detection toolkit for cybersecurity professionals*
 
 ---
@@ -17,7 +17,7 @@
 ### 📱 Fully Responsive Design
 - Mobile-first layout using Tailwind CSS breakpoints  
 - Adaptive grids and cards for all screen sizes  
-![Mobile View](https://via.placeholder.com/200x400.png?text=Mobile+View "Responsive Design")
+![Mobile View](./phishing-detection-tool/src/assets/mobilie-dashboard.png "Responsive Design")
 
 ### 🛡️ Security Insights
 - Real-time authentication results
@@ -44,10 +44,10 @@
 
 ### Email Analysis Workflow
 1. Navigate to Email Analysis  
-![Navigation](https://via.placeholder.com/600x150.png?text=Scan+Email+Button "Navigation Buttons")
+![Navigation](./phishing-detection-tool/src/assets/Email-Analysis.png "Navigation Buttons")
 2. Paste raw email headers
 3. View comprehensive analysis  
-![Results](https://via.placeholder.com/600x400.png?text=Analysis+Results "Analysis Results")
+![Results](./phishing-detection-tool/src/assets/email-analysis-results.png "Analysis Results")
 
 ### Key Interactions
 - Risk score progress bar with color-coded levels
