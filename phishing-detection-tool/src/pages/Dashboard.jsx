@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Dashboard = () => {
     return (
       <div>
@@ -40,16 +42,16 @@ const Dashboard = () => {
           </div>
         </div>
         <div class="inline-flex space-x-2 w-full justify-center">
-          <a href="url-analysis">
-  <button class="bg-cyan-300 mt-5 hover:bg-blue-300 text-gray-800 font-bold py-2 px-4 rounded">
-    Scan url
-  </button>
-  </a>
-  <a href="email-analysis">
-  <button class="bg-cyan-300 mt-5 hover:bg-blue-300 text-gray-800 font-bold py-2 px-4 rounded">
-    Scan email
-  </button>
-  </a>
+        <Link to="/url-analysis">
+    <button className="bg-cyan-300 mt-5 hover:bg-blue-300 text-gray-800 font-bold py-2 px-4 rounded">
+      Scan url
+    </button>
+  </Link>
+  <Link to="/email-analysis">
+    <button className="bg-cyan-300 mt-5 hover:bg-blue-300 text-gray-800 font-bold py-2 px-4 rounded">
+      Scan email
+    </button>
+    </Link>
 </div>
       </div>
     );
