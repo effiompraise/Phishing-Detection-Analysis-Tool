@@ -16,7 +16,7 @@ const Navbar = () => {
                 className={({isActive}) => 
                   isActive 
                     ? "text-[#8BE9FD] font-medium" 
-                    : "text-white hover:text-[#8FA3E3]"
+                    : "text-white hover:text-bg-blue-300"
                 }
                 end
               >
@@ -27,7 +27,7 @@ const Navbar = () => {
                 className={({isActive}) => 
                   isActive 
                     ? "text-[#8BE9FD] font-medium" 
-                    : "text-white hover:text-[#8FA3E3]"
+                    : "text-white hover:text-bg-blue-300"
                 }
               >
                 URL Analysis
@@ -37,7 +37,7 @@ const Navbar = () => {
                 className={({isActive}) => 
                   isActive 
                     ? "text-[#8BE9FD] font-medium" 
-                    : "text-white hover:text-[#8FA3E3]"
+                    : "text-white hover:text-bg-blue-300"
                 }
               >
                 Email Analysis

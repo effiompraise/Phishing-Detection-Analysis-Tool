@@ -41,12 +41,12 @@ const Dashboard = () => {
         </div>
         <div class="inline-flex space-x-2 w-full justify-center">
           <a href="url-analysis">
-  <button class="bg-[#8BE9FD] mt-5 hover:bg-[#8FA3E3] text-gray-800 font-bold py-2 px-4 rounded">
+  <button class="bg-cyan-300 mt-5 hover:bg-blue-300 text-gray-800 font-bold py-2 px-4 rounded">
     Scan url
   </button>
   </a>
   <a href="email-analysis">
-  <button class="bg-[#8BE9FD] mt-5 hover:bg-[#8FA3E3] text-gray-800 font-bold py-2 px-4 rounded">
+  <button class="bg-cyan-300 mt-5 hover:bg-blue-300 text-gray-800 font-bold py-2 px-4 rounded">
     Scan email
   </button>
   </a>
