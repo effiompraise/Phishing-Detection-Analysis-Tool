@@ -1,4 +1,3 @@
-```markdown
 # PhishGuard 🛡️
 
 ![PhishGuard Preview](https://via.placeholder.com/800x400.png?text=PhishGuard+Dashboard+Preview "Dashboard Preview")
