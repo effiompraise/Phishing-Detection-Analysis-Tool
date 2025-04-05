@@ -26,7 +26,21 @@
     transform: rotate(360deg);
   }
 }
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
+  .dark-mode-transition * {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
   .logo-spinner {
     animation: logo-spin infinite 20s linear;
   }
@@ -44,4 +58,23 @@
 
 .read-the-docs {
   color: #888;
+}
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #383857;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #93C5FD;
+  }
 }
