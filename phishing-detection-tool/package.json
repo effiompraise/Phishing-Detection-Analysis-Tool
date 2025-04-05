@@ -10,7 +10,12 @@
     "preview": "vite preview"
   },
   "vercel": {
-    "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
+    ]
   },
   "dependencies": {
     "autoprefixer": "^10.4.21",
