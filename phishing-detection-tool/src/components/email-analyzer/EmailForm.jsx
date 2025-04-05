@@ -38,7 +38,7 @@ const EmailForm = () => {
         </div>
         <button
           type="submit"
-          className="bg-[#8BE9FD]"
+          className="bg-cyan-300 hover:bg-blue-300"
           disabled={isLoading}
         >
           {isLoading ? 'Analyzing...' : 'Analyze Headers'}
