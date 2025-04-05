@@ -1,6 +1,6 @@
 # PhishGuard 🛡️
 
-![PhishGuard Preview](https://via.placeholder.com/800x400.png?text=PhishGuard+Dashboard+Preview "Dashboard Preview")
+![PhishGuard Preview](./phishing-detection-tool/src/assets/Screenshot%202025-04-05%20031208.png)
 *A modern phishing detection toolkit for cybersecurity professionals*
 
 ---
@@ -9,7 +9,7 @@
 
 ### 🔍 Multi-Analysis Capabilities
 - **Email Header Analysis**: Detect spoofing attempts via SPF/DKIM/DMARC verification  
-![Email Analysis](https://via.placeholder.com/400x250.png?text=Email+Analysis+Interface "Email Analysis Interface")
+![Email Analysis](./phishing-detection-tool/src/assets/Email-Analysis.png "Email Analysis Interface")
 - **Risk Scoring System**: Visual risk meter with low/medium/high classification  
 - **Received Chain Visualization**: Interactive email path tracing
 - **Dark Mode Support**: Optimized for low-light environments
