@@ -30,9 +30,10 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  flex-direction: column;
   min-width: 320px;
   min-height: 100vh;
+  width: 100%;
 }
 
 h1 {
@@ -68,7 +69,7 @@ button:focus-visible {
 }
 
 .card {
-  @apply bg-white dark:bg-cyber-dark rounded-lg shadow-md p-6;
+  @apply bg-white dark:bg-cyber-dark rounded-lg shadow-md;
 }
 
 @media (prefers-color-scheme: light) {
