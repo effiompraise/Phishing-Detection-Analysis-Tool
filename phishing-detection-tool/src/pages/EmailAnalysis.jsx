@@ -3,7 +3,7 @@ import EmailResults from '../components/email-analyzer/EmailResults';
 
 const EmailAnalysis = () => {
   return (
-    <div className="grid md:grid-cols-2 gap-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
     <div className="flex flex-row min-h-screen justify-center items-center">
       <div>
       <h1 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Email Header Analysis</h1>

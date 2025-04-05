@@ -5,6 +5,9 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    {/* Add these layout wrappers */}
+    <div className="w-full min-h-screen m-0 p-0 overflow-x-hidden">
     <App />
+    </div>
   </StrictMode>,
 )

@@ -4,7 +4,7 @@ const Dashboard = () => {
     return (
       <div>
         <h1 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Phishing Detection Dashboard</h1>
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
           <div className="card">
             <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white">Welcome to PhishGuard</h2>
             <p className="text-gray-600 dark:text-gray-400 mb-3">
@@ -27,7 +27,7 @@ const Dashboard = () => {
             </p>
             <div className="space-y-3">
               <div className="p-3 bg-gray-50 dark:bg-gray-800 rounded">
-                <h3 className="font-medium text-gray-800 dark:text-white">Brand Impersonation</h3>
+                <h3 className="text-base sm:text-lg font-medium text-gray-800 dark:text-white">Brand Impersonation</h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   Financial institutions remain the most impersonated brands in phishing attacks.
                 </p>
@@ -43,12 +43,12 @@ const Dashboard = () => {
         </div>
         <div class="inline-flex space-x-2 w-full justify-center">
         <Link to="/url-analysis">
-    <button className="bg-cyan-300 mt-5 hover:bg-blue-300 text-gray-800 font-bold py-2 px-4 rounded">
+    <button className="w-full md:w-auto bg-cyan-300 mt-5 hover:bg-blue-300 text-gray-800 font-bold py-2 px-4 rounded">
       Scan url
     </button>
   </Link>
   <Link to="/email-analysis">
-    <button className="bg-cyan-300 mt-5 hover:bg-blue-300 text-gray-800 font-bold py-2 px-4 rounded">
+    <button className="w-full md:w-auto bg-cyan-300 mt-5 hover:bg-blue-300 text-gray-800 font-bold py-2 px-4 rounded">
       Scan email
     </button>
     </Link>

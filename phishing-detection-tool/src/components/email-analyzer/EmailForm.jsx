@@ -25,7 +25,7 @@ const EmailForm = () => {
             value={emailHeaders}
             onChange={(e) => setEmailHeaders(e.target.value)}
             placeholder="Paste raw email headers here..."
-            className="input-field min-h-[200px]"
+            className="input-field min-h-[150px] md:min-h-[200px]"
             required
           />
         </div>
