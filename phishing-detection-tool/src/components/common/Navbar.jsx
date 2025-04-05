@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="bg-[#383857] dark:bg-gray-900 shadow-md">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="text-xl font-bold text-white hover:text-[#8BE9FD]">
+          <Link to="/" className="text-xl font-bold text-white hover:text-[#8FA3E3]">
             PhishGuard
           </Link>
           
@@ -16,7 +16,7 @@ const Navbar = () => {
                 className={({isActive}) => 
                   isActive 
                     ? "text-[#8BE9FD] font-medium" 
-                    : "text-white hover:text-[#8BE9FD]"
+                    : "text-white hover:text-[#8FA3E3]"
                 }
                 end
               >
@@ -27,7 +27,7 @@ const Navbar = () => {
                 className={({isActive}) => 
                   isActive 
                     ? "text-[#8BE9FD] font-medium" 
-                    : "text-white hover:text-[#8BE9FD]"
+                    : "text-white hover:text-[#8FA3E3]"
                 }
               >
                 URL Analysis
@@ -37,7 +37,7 @@ const Navbar = () => {
                 className={({isActive}) => 
                   isActive 
                     ? "text-[#8BE9FD] font-medium" 
-                    : "text-white hover:text-[#8BE9FD]"
+                    : "text-white hover:text-[#8FA3E3]"
                 }
               >
                 Email Analysis
