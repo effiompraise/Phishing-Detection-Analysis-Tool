@@ -93,10 +93,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 🎯 Roadmap
 
-- [ ] URL Analysis Module
+- [ ] URL Analysis Scans
 - [ ] Visual Content Detection
-- [ ] PDF Report Generation
-- [ ] Multi-user Support
+- [ ] Email Analysis Scans
 
 ---
 
@@ -105,5 +104,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - Vite for blazing-fast builds
 - Heroicons for beautiful SVG icons
 - Cybersecurity community for threat intelligence patterns
+- ALX peers for their support and inspiration
 
 ```
